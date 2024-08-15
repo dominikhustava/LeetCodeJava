@@ -1,5 +1,6 @@
 package org.example;
 
+import org.example.easy.PalindromeNumber;
 import org.example.easy.TwoSum;
 
 import java.util.Arrays;
@@ -19,6 +20,12 @@ public class Main {
         System.out.println(Arrays.toString(TwoSum.twoSum(nums, target)));
         System.out.println(Arrays.toString(TwoSum.twoSum(nums1, target1)));
         System.out.println(Arrays.toString(TwoSum.twoSum(nums2, target2)));
+
+        //is Palindrome number
+        int x = 121;
+        System.out.println("is " + x + " palindrome?" + " -> " + PalindromeNumber.isPalindrome(x));
+        int x1 = 144;
+        System.out.println("is " + x1 + " palindrome?" + " -> " + PalindromeNumber.isPalindrome(x1));
 
     }
 }
